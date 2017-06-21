@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		#box{
+			display: block;
+			padding: 100px 10px;
+			width: 700px;
+			margin: 0 auto;
+		}
+		#box li{
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			list-style: none;
+			height: 100px;
+		}
+	</style>
+</head>
+<body>
+	<ul id="box"></ul>
+	<script type="text/javascript" src="./jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="../build/jquery.retract.min.js"></script>
+	<script type="text/javascript">
+		( function() {
+			var imgItems = [];
+			for( let i = 0;i < 15; i++) {
+				imgItems.push('<li style="background-image: url(./imgs/' + i + '.jpg)"></li>');
+			}
+
+			$( '#box' ).html( imgItems.join( '' ) ).retract()
+		}() );
+	</script>
+</body>
+</html>

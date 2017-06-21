@@ -1,0 +1,19 @@
+{
+  "name": "jquery.retract",
+  "version": "1.0.0",
+  "description": "基于jQuery的随机宽度横向排版插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jquery-plugin"
+  ],
+  "author": "Ryuurock",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0"
+  }
+}
