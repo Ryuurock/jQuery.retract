@@ -1,6 +1,6 @@
 ### jQuery.retract
 
-![效果图](http://ryuurock.me/2017/06/21/jQuery-pulgin-retract/result.jpg)
+![效果图](test/result/result.jpg)
 
 效果还是不赖吧 >_>
 
@@ -16,9 +16,9 @@
 
 ***
 `horizontalSize`为5的预览效果
-![效果图](http://ryuurock.me/2017/06/21/jQuery-pulgin-retract/result2.jpg)
+![效果图](test/result/result2.jpg)
 ***
 `autoFullColumns`为true的预览效果
-![效果图](http://ryuurock.me/2017/06/21/jQuery-pulgin-retract/result3.jpg)
+![效果图](test/result/result3.jpg)
 `x、y`为1的预览效果
-![效果图](http://ryuurock.me/2017/06/21/jQuery-pulgin-retract/result4.jpg)
+![效果图](test/result/result4.jpg)
