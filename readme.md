@@ -20,5 +20,6 @@
 ***
 `autoFullColumns`为true的预览效果
 ![效果图](test/result/result3.jpg)
+***
 `x、y`为1的预览效果
 ![效果图](test/result/result4.jpg)
